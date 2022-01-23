@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 13 - Hanif Ahmd Syauqi - 10121161</title>
+    <link rel="stylesheet" href="assets/css/w3.css">
+    <link rel="stylesheet" href="assets/css/ambient.css">
+
+</head>
+
+<body>
+    <div id="sidebar-content" class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display: none;">
+        <button class="w3-bar-item w3-button w3-large w3-left" onclick="w3_close()">&times;</button>
+        <h5 class="w3-bar-item w3-center" style="font-weight: bold;"><a href="#" onclick="select(event, 'home')">Beranda</a></h5>
+        <div id="button-pages">
+            <button class="w3-bar-item w3-button tablink w3-border-bottom" onclick="select(event, 'braga')">Braga</button>
+            <button class="w3-bar-item w3-button tablink" onclick="select(event, 'Garut')">Garut</button>
+            <button class="w3-bar-item w3-button tablink" onclick="select(event, 'Tasik')">Tasik</button>
+            <button class="w3-bar-item w3-button tablink" onclick="select(event, 'Cirebon')">Cirebon</button>
+        </div>
+    </div>
+    
+    <div id="main-page"  class="bg">
+        <img src="assets/images/banner.png" width="100%" class="w3-animate-zoom">
+        <div class="w3-red">
+            <div class="w3-container w3-center">
+                <button id="openNav" class="w3-button w3-red w3-xlarge" style="float: left;" onclick="w3_open()">&#9776;</button>
+                <h4 id="head-title">Home</h4>
+            </div>
+        </div>
+
+        <div id="pages" class="w3-container w3-center" style="margin-top: 10px;margin-right: -10px;">
+        </div>
+        <div class="w3-container w3-lime w3-center">
+            <p>Created By Hanif Ahmad Syauqi - 10121161</p>
+        </div>
+    </div>
+</body>
+<script src="assets/js/main.js" type="application/javascript"></script>
+</html>
